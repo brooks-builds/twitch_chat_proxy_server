@@ -1,0 +1,25 @@
+{
+  "name": "twitch_chat_proxy_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brooks-builds/twitch_chat_proxy_server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brooks-builds/twitch_chat_proxy_server/issues"
+  },
+  "homepage": "https://github.com/brooks-builds/twitch_chat_proxy_server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.5.0",
+    "ws": "^7.3.0"
+  }
+}
