@@ -26,12 +26,6 @@ wss.on("connection", (ws) => {
   client.on("message", (channel, tags, message, self) => {
     if (self) return;
 
-    messageCount += 1;
-
-    if (messageCount >= minimumMessagesBetweenHelpMessages) {
-      sayHelpMessage(client);
-    }
-
     if (message.toLowerCase() == "#drop" || message.toLowerCase() == "!drop") {
       const payload = {
         command: "drop",
