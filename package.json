@@ -21,7 +21,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "tmi.js": "^1.5.0",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
